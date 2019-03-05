@@ -1,0 +1,302 @@
+
+		------ PREPARING DISK ------
+Size assigned: 4096 Bytes
+Creating 511 blocks
+First block's ID: 2
+Last block's ID: 512
+
+		------ VIRTUAL DISK ------
+-Size: 4096 Bytes
+-Number of blocks: 511
+-Available blocks: 511
+-Available space: 4088 Bytes
+-Files: 0
+
+Creating... first.y
+File: first.y	size: 413	requires: 51 blocks
+Last block's ID: 52	Blocks assigned!
+Address in file table: 1	Address in disk: 2
+
+Creating... second.y
+File: second.y	size: 493	requires: 61 blocks
+Last block's ID: 113	Blocks assigned!
+Address in file table: 2	Address in disk: 53
+
+Creating... test1.y
+File: test1.y	size: 64	requires: 8 blocks
+Last block's ID: 121	Blocks assigned!
+Address in file table: 3	Address in disk: 114
+
+Creating... test2.y
+File: test2.y	size: 326	requires: 40 blocks
+Last block's ID: 161	Blocks assigned!
+Address in file table: 4	Address in disk: 122
+
+Creating... test3.y
+File: test3.y	size: 301	requires: 37 blocks
+Last block's ID: 198	Blocks assigned!
+Address in file table: 5	Address in disk: 162
+
+Creating... test4.y
+File: test4.y	size: 398	requires: 49 blocks
+Last block's ID: 247	Blocks assigned!
+Address in file table: 6	Address in disk: 199
+
+Creating... test5.y
+File: test5.y	size: 421	requires: 52 blocks
+Last block's ID: 299	Blocks assigned!
+Address in file table: 7	Address in disk: 248
+
+Creating... test6.y
+File: test6.y	size: 311	requires: 38 blocks
+Last block's ID: 337	Blocks assigned!
+Address in file table: 8	Address in disk: 300
+
+FLAGGLAL
+File: first.y, is in the system
+File: first.y, size: 413
+
+Copying to... /usr/usr/first.y
+Copying... /usr/usr/testa.x
+File: testa.x	size: 159	requires: 19 blocks
+Last block's ID: 356	Blocks assigned!
+Address in file table: 9	Address in disk: 338
+
+Copying... /usr/usr/testb.x
+File: testb.x	size: 126	requires: 15 blocks
+Last block's ID: 371	Blocks assigned!
+Address in file table: 10	Address in disk: 357
+
+Copying... /usr/usr/testc.x
+File: testc.x	size: 137	requires: 17 blocks
+Last block's ID: 388	Blocks assigned!
+Address in file table: 11	Address in disk: 372
+
+Copying... /usr/usr/testd.x
+File: testd.x	size: 169	requires: 21 blocks
+Last block's ID: 409	Blocks assigned!
+Address in file table: 12	Address in disk: 389
+
+Copying... /usr/usr/teste.x
+File: teste.x	size: 445	requires: 55 blocks
+Last block's ID: 464	Blocks assigned!
+Address in file table: 13	Address in disk: 410
+
+Copying... /usr/usr/testf.x
+File: testf.x	size: 157	requires: 19 blocks
+Last block's ID: 483	Blocks assigned!
+Address in file table: 14	Address in disk: 465
+
+Copying... /usr/usr/testg.x
+Copying... /usr/usr/testh.x
+Copying... /usr/usr/testi.x
+File: testi.x	size: 15	requires: 1 blocks
+Last block's ID: 484	Blocks assigned!
+Address in file table: 15	Address in disk: 484
+
+Copying... /usr/usr/testj.x
+Copying... /usr/usr/testk.x
+File: testk.x	size: 149	requires: 18 blocks
+Last block's ID: 502	Blocks assigned!
+Address in file table: 16	Address in disk: 485
+
+Copying... /usr/usr/testl.x
+FLAGGLAL
+File: test1.y, is in the system
+File: test1.y, size: 64
+
+Copying to... /usr/usr/test1.y
+
+Deleting... /usr/usr/second.y
+File: second.y, is in the system
+Allocation in table: 24760
+Current address: 53
+deleting block: 53
+deleting block: 54
+deleting block: 55
+deleting block: 56
+deleting block: 57
+deleting block: 58
+deleting block: 59
+deleting block: 60
+deleting block: 61
+deleting block: 62
+deleting block: 63
+deleting block: 64
+deleting block: 65
+deleting block: 66
+deleting block: 67
+deleting block: 68
+deleting block: 69
+deleting block: 70
+deleting block: 71
+deleting block: 72
+deleting block: 73
+deleting block: 74
+deleting block: 75
+deleting block: 76
+deleting block: 77
+deleting block: 78
+deleting block: 79
+deleting block: 80
+deleting block: 81
+deleting block: 82
+deleting block: 83
+deleting block: 84
+deleting block: 85
+deleting block: 86
+deleting block: 87
+deleting block: 88
+deleting block: 89
+deleting block: 90
+deleting block: 91
+deleting block: 92
+deleting block: 93
+deleting block: 94
+deleting block: 95
+deleting block: 96
+deleting block: 97
+deleting block: 98
+deleting block: 99
+deleting block: 100
+deleting block: 101
+deleting block: 102
+deleting block: 103
+deleting block: 104
+deleting block: 105
+deleting block: 106
+deleting block: 107
+deleting block: 108
+deleting block: 109
+deleting block: 110
+deleting block: 111
+deleting block: 112
+deleting block: 113
+
+		------ DISK MAPPER ------
+*S *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 -13 -14 -15 -16 -17 -18 -19 -0 
+-6 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 -15 -16 -17 -18 -19 -0 
+-8 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 -15 -16 -17 -18 -19 -0 
+-10 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 -3 -4 -5 -6 -7 -8 -9 -10 -11 
+
+		------ FILE TABLE ------
+fl[1]: 413 B	address: 2	file: first.y
+fl[2]: NULL
+fl[3]: 64 B	address: 114	file: test1.y
+fl[4]: 326 B	address: 122	file: test2.y
+fl[5]: 301 B	address: 162	file: test3.y
+fl[6]: 398 B	address: 199	file: test4.y
+fl[7]: 421 B	address: 248	file: test5.y
+fl[8]: 311 B	address: 300	file: test6.y
+fl[9]: 159 B	address: 338	file: testa.x
+fl[10]: 126 B	address: 357	file: testb.x
+fl[11]: 137 B	address: 372	file: testc.x
+fl[12]: 169 B	address: 389	file: testd.x
+fl[13]: 445 B	address: 410	file: teste.x
+fl[14]: 157 B	address: 465	file: testf.x
+fl[15]: 15 B	address: 484	file: testi.x
+fl[16]: 149 B	address: 485	file: testk.x
+
+		------ VIRTUAL DISK ------
+-Size: 4096 Bytes
+-Number of blocks: 511
+-Available blocks: 71
+-Available space: 568 Bytes
+-Files: 15
+
+
+Deleting... /usr/usr/testb.x
+File: testb.x, is in the system
+Allocation in table: 24760
+Current address: 357
+deleting block: 357
+deleting block: 358
+deleting block: 359
+deleting block: 360
+deleting block: 361
+deleting block: 362
+deleting block: 363
+deleting block: 364
+deleting block: 365
+deleting block: 366
+deleting block: 367
+deleting block: 368
+deleting block: 369
+deleting block: 370
+deleting block: 371
+
+		------ DISK MAPPER ------
+*S *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 -13 -14 -15 -16 -17 -18 -19 -0 
+-6 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 -15 -16 -17 -18 -19 -0 
+-8 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 -15 -16 -17 -18 -19 -0 
+-10 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 -17 -18 -19 -0 
+-36 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 *3 *4 *5 *6 *7 *8 *9 *10 *11 *12 *13 *14 *15 *16 *17 *18 *19 *0 
+*1 *2 -3 -4 -5 -6 -7 -8 -9 -10 -11 
+
+		------ FILE TABLE ------
+fl[1]: 413 B	address: 2	file: first.y
+fl[2]: NULL
+fl[3]: 64 B	address: 114	file: test1.y
+fl[4]: 326 B	address: 122	file: test2.y
+fl[5]: 301 B	address: 162	file: test3.y
+fl[6]: 398 B	address: 199	file: test4.y
+fl[7]: 421 B	address: 248	file: test5.y
+fl[8]: 311 B	address: 300	file: test6.y
+fl[9]: 159 B	address: 338	file: testa.x
+fl[10]: NULL
+fl[11]: 137 B	address: 372	file: testc.x
+fl[12]: 169 B	address: 389	file: testd.x
+fl[13]: 445 B	address: 410	file: teste.x
+fl[14]: 157 B	address: 465	file: testf.x
+fl[15]: 15 B	address: 484	file: testi.x
+fl[16]: 149 B	address: 485	file: testk.x
+
+		------ VIRTUAL DISK ------
+-Size: 4096 Bytes
+-Number of blocks: 511
+-Available blocks: 86
+-Available space: 688 Bytes
+-Files: 14
+
